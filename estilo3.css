@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+
+.banner {
+    background-color: rgba(50, 92, 6, 0.82);
+    width: 100%;
+    height: 65px;
+    margin-right: 60%;
+
+}
+
+footer {
+    width: 100%;
+    height: 250px;
+    background-color: rgba(178, 221, 144, 1);
+    position: static;
+}
+
+.logo {
+    float: left;
+    margin-top: 8px;
+}
+
+.titulo {
+    font-family: 'Thasadith';
+    color: white;
+    font-size: 40px;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+}
+
+.pesquisa {
+    float: left;
+    margin-left: 16%;
+    margin-top: 20px;
+}
+
+.buscar {
+    width: 750px;
+    height: 25px;
+    border-radius: 5px;
+    border: 2px solid rgba(171, 211, 209, 1);
+}
+
+.botao {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    width: 30;
+    height: 20;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: rgb(90, 90, 90);
+    font-weight: bold;
+}
+
+.botao:hover {
+    cursor: pointer;
+    background-color: rgba(223, 226, 219, 0.82);
+}
+
+.menu {
+    background-color: rgba(151, 191, 4, 1);
+    width: 100%;
+    height: 45px;
+}
+
+.opcoes {
+    float: left;
+    font-family: Georgia;
+    margin-left: 10%;
+    margin-top: 10px;
+}
+
+.formataLink {
+    color: white;
+    text-decoration: none;
+    text-shadow: .1em 0.1em 0.1em rgb(100, 99, 99);
+}
+
+.formataLink:hover {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.logomenu {
+    width: 45px;
+    height: 50px;
+}
+
+.logorodape {
+    float: left;
+    width: 85px;
+    height: 80px;
+}
+
+.imagens {
+    width: 55px;
+    height: 60px;
+}
+
+.menuRodape {
+    float: left;
+    margin-left: 10%;
+}
+
+.texto {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 0.1em 0.1em 0.1em rgb(100, 99, 99);
+}
+
+.link {
+    font-family: Georgia;
+    color: rgba(64, 64, 64, 1);
+}
+
+.link:hover {
+    cursor: pointer;
+    color: rgb(114, 113, 113);
+}
+
+.logos {
+    float: left;
+    margin-top: 25px;
+    margin-left: 6%;
+}
+
+.imgcontatos {
+    width: 50px;
+    height: 50px;
+}
+.box{
+    width: 100%;
+    height: 150px;
+
+}

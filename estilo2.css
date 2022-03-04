@@ -1,0 +1,260 @@
+* {
+    box-sizing: border-box;
+}
+
+.banner {
+    background-color: rgba(50, 92, 6, 0.82);
+    width: 100%;
+    height: 65px;
+    margin-right: 60%;
+
+}
+
+footer {
+    width: 100%;
+    height: 250px;
+    background-color: rgba(178, 221, 144, 1);
+    margin-top: 30%;
+}
+
+.logo {
+    float: left;
+    margin-top: 8px;
+}
+
+.titulo {
+    font-family: 'Thasadith';
+    color: white;
+    font-size: 40px;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+}
+
+.pesquisa {
+    float: left;
+    margin-left: 16%;
+    margin-top: 20px;
+}
+
+.buscar {
+    width: 750px;
+    height: 25px;
+    border-radius: 5px;
+    border: 2px solid rgba(171, 211, 209, 1);
+}
+
+.botao {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 30;
+    height: 20;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: rgb(90, 90, 90);
+    font-weight: bold;
+}
+
+.botao:hover {
+    cursor: pointer;
+    background-color: rgba(223, 226, 219, 0.82);
+}
+
+.menu {
+    background-color: rgba(151, 191, 4, 1);
+    width: 100%;
+    height: 45px;
+}
+
+.opcoes {
+    float: left;
+    font-family: Georgia;
+    margin-left: 10%;
+    margin-top: 10px;
+}
+
+.formataLink {
+    color: white;
+    text-decoration: none;
+    text-shadow: .1em 0.1em 0.1em rgb(100, 99, 99);
+}
+
+.formataLink:hover {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.logomenu {
+    width: 45px;
+    height: 50px;
+}
+
+.logorodape {
+    float: left;
+    width: 85px;
+    height: 80px;
+}
+
+.imagens {
+    width: 55px;
+    height: 60px;
+}
+
+.menuRodape {
+    float: left;
+    margin-left: 10%;
+}
+
+.texto {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 0.1em 0.1em 0.1em rgb(100, 99, 99);
+}
+
+.link {
+
+    font-family: Georgia;
+    color: rgba(64, 64, 64, 1);
+}
+
+.link:hover {
+    cursor: pointer;
+    color: rgb(114, 113, 113);
+}
+
+.promocaotext {
+    font-size: xx-large;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    margin-left: 37%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    text-shadow: 0.1em 0.1em 0.1em rgb(146, 145, 145);
+}
+
+.box {
+    max-width: 100%;
+    height: 500px;
+    background-color: rgb(216, 219, 24);
+    margin-bottom: 190px;
+    background: linear-gradient(180deg, rgb(216, 219, 24), rgb(255, 255, 255));
+}
+
+.mySlides {
+    display: none;
+}
+
+.slideshow-container {
+    width: 500px;
+    position: relative;
+    margin: auto;
+}
+
+.imgsSlides {
+    margin-top: 5px;
+    width: 500px;
+    height: 500px;
+    border-radius: 5px;
+    border: 2px solid white;
+    object-fit: cover;
+}
+
+.numberSlides {
+    font-size: small;
+}
+
+.textSlide {
+    width: 100%;
+    text-align: center;
+    bottom: 8px;
+    color: rgb(65, 65, 65);
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 8px 8px;
+    text-shadow: 0.1em 0.1em 0.1em rgb(133, 132, 132);
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6 ease;
+    border-radius: 0px 3px 3px 0px;
+    user-select: none;
+}
+
+.next {
+    right: 0px;
+    border-radius: 3px 0px 0px 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.82);
+}
+
+.logos {
+    float: left;
+    margin-top: 25px;
+    margin-left: 6%;
+}
+
+.imgcontatos {
+    width: 50px;
+    height: 50px;
+}
+
+.produtos {
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgba(177, 218, 26, 1);
+}
+
+.ordenar {
+    font-family: 'Times New Roman', Times, serif;
+    float: left;
+    margin-left: 15px;
+}
+
+.btaoprodu {
+    background-color: rgba(255, 255, 255, 0.82);
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 20;
+    height: 10;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: rgb(90, 90, 90);
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.conjuntoProdutos {
+    margin-top: 25px;
+    margin-left: 25px;
+    float: left;
+}
+
+.imgs {
+    width: 250px;
+    height: 350px;
+    border-radius: 5px;
+}
+
+.comprarBotao {
+    background-color: rgb(152, 209, 87);
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+    font-family: Times, serif;
+    font-weight: bold;
+}
+
+.comprarBotao:hover {
+    cursor: pointer;
+    background-color: lightyellow;
+}
